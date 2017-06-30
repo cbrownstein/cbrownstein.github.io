@@ -60,5 +60,6 @@ to the server.
 Congratulations! Your YubiKey is now configured for authentication.
 
 I want to improve these instructions to make them easier to follow. So, please
-email your questions and comments to cbrownstein@liquidityllc.com. (Encrypted
-email is preferable.)
+email your questions and comments to
+[cbrownstein@liquidityllc.com](mailto:cbrownstein@liquidityllc.com).
+(Encrypted email is preferable.)
