@@ -45,8 +45,9 @@ set the SSH_AUTH_SOCK environment variable to gpg-agent instead of ssh-agent.
 Accordingly, ssh will use gpg-agent instead of ssh-agent and now finally you
 will be able to use the authentication subkey on your YubiKey.
 
-Run gpgxx from a terminal. This command makes gpg-agent reload gpg-agent.conf.
-We want to make sure it know SSH support has been enabled.
+Run `gpgconf --reload gpg-agent` from a terminal. This command makes gpg-agent
+reload gpg-agent.conf. We want to make sure it know SSH support has been
+enabled.
 
 If your YubiKey is not already plugged in, plug it in now. Run ssh-add -L from
 a terminal and you should see your PGP public key. You are now ready to
