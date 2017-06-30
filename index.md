@@ -33,6 +33,9 @@ an environment variable so that ssh connects to gpg-agent instead of ssh-agent
 as it currently does.
 
 ```shell
+# start gpg-agent if it is not running already
+gpg-connect-agent /bye
+
 # use gpg-agent instead of ssh-agent
 unset SSH_AGENT_PID
 if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
