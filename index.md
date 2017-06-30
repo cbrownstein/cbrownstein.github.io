@@ -32,11 +32,13 @@ not yet know that. You need to let it know. To do that, you will have to set
 an environment variable so that ssh connects to gpg-agent instead of ssh-agent
 as it currently does.
 
-    # use gpg-agent instead of ssh-agent
-    unset SSH_AGENT_PID
-    if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
-      export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
-    fi
+```shell
+# use gpg-agent instead of ssh-agent
+unset SSH_AGENT_PID
+if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
+  export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+fi
+```
 
 With this added to your ~/.bashrc file, your terminal will automatically
 set the SSH_AUTH_SOCK environment variable to gpg-agent instead of ssh-agent.
