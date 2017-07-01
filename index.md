@@ -7,7 +7,7 @@ These instructions have been tested to work on Ubuntu GNOME 17.04 (Zesty
 Zapus). They may be valid for other flavors and versions of Ubuntu (and
 possibly other Linux distributions). If they are,
 [please let me know](mailto:cbrownstein@liquidityllc.com) so that I may update
-these instructions and give your credit for your contribution.
+these instructions and give you credit for your contribution.
 
 These instructions assume that you already have your YubiKey working with
 `gpg` and that an authentication subkey is already loaded onto your YubiKey.
