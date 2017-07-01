@@ -37,7 +37,8 @@ that line. This setting allows `gpg-agent` to be used in place of `ssh-agent`
 and allows `ssh` to access your YubiKey.
 
 At this point, `gpg-agent` can now function in place of `ssh-agent` for SSH
-authentication. But `ssh` does not know that. Add the following lines to your `~/.bashrc` so that `ssh` knows to use `gpg-agent` for SSH authentication:
+authentication. But `ssh` does not know that. Add the following lines to your
+`~/.bashrc` so that `ssh` knows to use `gpg-agent` for SSH authentication:
 
 ```shell
 # start gpg-agent if it is not running already
