@@ -1,5 +1,6 @@
 # cbrownstein@liquidityllc.com
-PGP Key Fingerprint: D694 9CC2 320A B676 B914 99DB 9BB2 5A1A 5C1D 9108
+PGP Key Fingerprint:
+[D694 9CC2 320A B676 B914 99DB 9BB2 5A1A 5C1D 9108](cbrownstein.asc)
 
 ## Configure Ubuntu GNOME 17.04 to allow SSH logins with a YubiKey
 These instructions have been tested to work on Ubuntu GNOME 17.04. They may be
